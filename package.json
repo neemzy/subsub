@@ -1,0 +1,16 @@
+{
+  "name": "subsub",
+  "description": "Be notified when a given YouTube channel posts a video matching specific keywords",
+  "author": "neemzy <tom.panier@free.fr>",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "touch latest.json && node .",
+    "reset": "rm latest.json"
+  },
+  "dependencies": {
+    "node-notifier": "^7.0.2",
+    "qs": "^6.9.4",
+    "request": "^2.88.2"
+  }
+}
